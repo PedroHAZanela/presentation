@@ -35,17 +35,17 @@ body{
     text-decoration: none;
 }
 .apresentacao{
-    padding: 5% 15%;
+    padding: 5% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
 }
 .apresentacao__conteudo{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 15px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -55,8 +55,12 @@ body{
 .titulo-destaque{
     color: var(--cor-tres);
 }
+.apresentacao__conteudo__texto1{
+    font-size: 1.1rem;
+    font-family: var(--fonte-dois);
+}
 .apresentacao__conteudo__texto{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: var(--fonte-dois);
 }
 
